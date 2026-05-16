@@ -1,0 +1,47 @@
+[package]
+name = "abc454"
+version = "0.1.0"
+edition = "2018"
+
+[package.metadata.cargo-compete.bin]
+abc454-a = { alias = "a", problem = "https://atcoder.jp/contests/abc454/tasks/abc454_a" }
+abc454-b = { alias = "b", problem = "https://atcoder.jp/contests/abc454/tasks/abc454_b" }
+abc454-c = { alias = "c", problem = "https://atcoder.jp/contests/abc454/tasks/abc454_c" }
+abc454-d = { alias = "d", problem = "https://atcoder.jp/contests/abc454/tasks/abc454_d" }
+abc454-e = { alias = "e", problem = "https://atcoder.jp/contests/abc454/tasks/abc454_e" }
+abc454-f = { alias = "f", problem = "https://atcoder.jp/contests/abc454/tasks/abc454_f" }
+abc454-g = { alias = "g", problem = "https://atcoder.jp/contests/abc454/tasks/abc454_g" }
+
+[[bin]]
+name = "abc454-a"
+path = "src/bin/a.rs"
+
+[[bin]]
+name = "abc454-b"
+path = "src/bin/b.rs"
+
+[[bin]]
+name = "abc454-c"
+path = "src/bin/c.rs"
+
+[[bin]]
+name = "abc454-d"
+path = "src/bin/d.rs"
+
+[[bin]]
+name = "abc454-e"
+path = "src/bin/e.rs"
+
+[[bin]]
+name = "abc454-f"
+path = "src/bin/f.rs"
+
+[[bin]]
+name = "abc454-g"
+path = "src/bin/g.rs"
+
+[dependencies]
+proconio = "0.4"
+itertools = "0.10"
+
+[dev-dependencies]
